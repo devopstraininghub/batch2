@@ -2,8 +2,8 @@ FROM centos
 	MAINTAINER KIRAN <devopstraininghub@gmail.com>
 	#RUN apt-get update -y
 	RUN yum install git -y
-	RUN git config --global user.name "DevOps Training"
-	RUN git config --global user.email “devopstraininghub@gmail.com"
+#	RUN git config --global user.name "DevOpsTraining"
+#	RUN git config --global user.email “devopstraininghub@gmail.com"
 	RUN cd /opt && git clone https://github.com/devopstraininghub/Batch3.git
 	RUN yum install java -y
 	RUN yum install maven -y
