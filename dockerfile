@@ -2,7 +2,7 @@ FROM centos
 	MAINTAINER KIRAN <devopstraininghub@gmail.com>
 	#RUN apt-get update -y
 	RUN yum install git -y
-#	RUN git config --global user.name "DevOpsTraining"
+	git config --global user.name "kiran"
 #	RUN git config --global user.email “devopstraininghub@gmail.com"
 	RUN cd /opt && git clone https://github.com/devopstraininghub/Batch3.git
 	RUN yum install java -y
